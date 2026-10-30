@@ -1,21 +1,14 @@
-.figtree-regular {
-  font-family: "Figtree", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
+  font-family: "Figtree", sans-serif;
   background-color: #ff0;
   margin: 0;
 }
 
 h1 {
-  font-size: clamp(0.65rem, calc(1.2214rem + 0.1429vw), 1.5rem);
+  font-size: clamp(1.5rem, calc(1.2214rem + 0.1429vw), 2.5rem);
 }
 
 main {
-  font-family: "Figtree", sans-serif;
   font-weight: 500;
   width: 100%;
   min-height: 100vh;
@@ -83,8 +76,7 @@ footer {
 }
 
 .card-link:hover {
-  cursor: pointer;
-  color: #ff0;
+  color: hsl(47, 57%, 46%);
 }
 
 .card-description {
@@ -95,10 +87,12 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  height: 32px;
-  border-radius: 50%;
+  font-size: .9rem;
+  font-weight: 800;
 }
 
 .author .avatar-pic {
   width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
